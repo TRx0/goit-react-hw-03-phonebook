@@ -4,7 +4,7 @@ import { ListContacts } from './List/List';
 import { Filter } from 'components/Filter/Filter';
 import { useState, useEffect } from 'react';
 import { nanoid } from 'nanoid';
-import PropTypes from 'prop-types';
+// import PropTypes from 'prop-types';
 
 export const App = () => {
   const [contacts, setContacts] = useState(
